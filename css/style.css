@@ -32,13 +32,13 @@ header{
 
 button{
     background-color: white;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 50px;
     margin: 10px;
     font-size: 22px;
 }
 
-ul{
+.ul-header{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@ ul{
     flex-wrap: wrap;
 }
 
-li{
+.li-header{
     padding: 20px;
 }
 
@@ -121,6 +121,19 @@ p{
 /*footer*/
 footer{
     background-color:rgb(35, 39, 42);
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 5px;
+}
+
+.color-first-title-list{
+    color: #5471d3;
 }
 
 .row-footer{
@@ -128,23 +141,15 @@ footer{
 }
 
 .col-footer{
-    height: 380px;
     display: flex;
+    flex-direction: column;
 }
 
-.border-col-footer{
-    border: dashed 2px white;
+hr{
+    margin: 80px 80px 40px 80px;
 }
 
-.logo{
-    background-color: rgb(211, 211, 211);
-    border: dashed 2px black;
-    padding: 10px;
-    font-family: sans-serif;
-    height: 30px;
-    display: flex;
-    align-items: center;
-}
+
 
 .color-content-white{
     color: white;
@@ -152,6 +157,14 @@ footer{
 
 .padding-top{
     padding-top: 25px;
+}
+
+.padding-bottom{
+    padding-bottom:50px ;
+}
+
+.padding-top-170{
+    padding-top: 170px;
 }
 
 .padding-button{
@@ -207,6 +220,17 @@ footer{
     width: 60%;
 }
 
+.width-30{
+    width: 30%;
+}
+
+.width-15{
+    width: 15%;
+}
+
+.width-90{
+    width: 90%;
+}
 /*position items*/
 .center{
     text-align: center;
@@ -228,12 +252,19 @@ footer{
     align-items: center;
 }
 
+.aling-items-start{
+    align-items:start;
+}
+
 .column{
     flex-direction: column;
 }
 
 .row-reverse{
     flex-direction: row-reverse;
+}
+.row-direction{
+    flex-direction: row;
 }
 
 .aling-items-end{
