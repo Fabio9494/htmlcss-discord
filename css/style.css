@@ -50,19 +50,6 @@ li{
     padding: 20px;
 }
 
-/*main*/
-
-
-
-
-.conteiner-first-row{
-    background-image: url(../img/jumbo.png);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;  
-}
-
-/* first row*/
 h1{
     font-size: 60px;
     padding: 25px 0;
@@ -73,6 +60,16 @@ p{
     font-size: 22px;
     line-height: 35px;
     
+}
+
+/*main*/
+
+/* first row*/
+.conteiner-first-row{
+    background-image: url(../img/jumbo.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
 }
 
 /*second row*/
@@ -98,6 +95,13 @@ p{
 .conteiner-fourth-row{
     padding-top: 25px;
     display: flex;
+}
+
+/*fifth row*/
+.conteiner-fifth-row{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -146,13 +150,27 @@ footer{
     color: white;
 }
 
-
 .padding-top{
     padding-top: 25px;
 }
 
+.padding-button{
+    padding: 10px 30px;
+}
+
+.padding-left{
+    padding-left:150px;
+}
+
+.margin{
+    margin: 25px;
+}
 
 /*background color*/
+
+.bg-EA1E1{
+    background-color:#8EA1E1;
+}
 
 .bg-black{
     background-color: black;
@@ -170,65 +188,16 @@ footer{
     background-color: rgb(232, 229, 229);
 }
 
-.bg-pink{
-    background-color:rgb(238, 130, 238);
-}
-
-.bg-1E9FF{
-    background-color:#1E90FF;
-}
-
-.bg-FFC0CB{
-    background-color: #FFC0CB;
-}
-
-.bg-228B22{
-    background-color: #228B22;
-}
-
-.bg-F08080{
-    background-color: #F08080;
-}
-
-
-
-.bg-20B2AA{
-    background-color: #20B2AA;
-}
-
-.bg-7FFFD4{
-    background-color: #7FFFD4;
-}
-
-
 /*width*/
-.width-700{
-    width: 700px;
-}
 
 .width-40{
     width: 40%;
 }
 
-.width-200{
-    width: 200px;
+.width-100{
+    width: 100%;
 }
 
-.width-500{
-    width: 500px;
-}
-
-.width-900{
-    width: 900px;
-}
-
-.width-300{
-    width: 300px;
-}
-
-.width-150{
-    width: 150px;
-}
 
 .width-20{
     width: 20%;
@@ -237,28 +206,6 @@ footer{
 .width-60{
     width: 60%;
 }
-
-/*height*/
-.height-600{
-    height: 600px;
-}
-
-.height-550{
-    height: 550px;
-}
-
-.height-400{
-    height: 400px;
-}
-
-.height-60{
-    height: 60px;
-}
-
-.height-70{
-    height: 70px;
-}
-
 
 /*position items*/
 .center{
