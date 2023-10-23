@@ -6,6 +6,7 @@
 
 body{
     margin: 0 auto;
+    font-family: sans-serif;
 } 
 
 /*header*/
@@ -56,7 +57,6 @@ li{
 
 .conteiner-first-row{
     background-image: url(../img/jumbo.png);
-    font-family: sans-serif;
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;  
@@ -64,7 +64,7 @@ li{
 
 /* first row*/
 h1{
-    padding: 25px;
+    padding-bottom: 25px;
     font-size: 60px;
 }
 
@@ -81,6 +81,7 @@ p{
 }
 
 
+/*third row*/
 .conteiner-third-row{
     padding-top: 25px;
     display: flex;
@@ -97,7 +98,7 @@ p{
 .row{
     width: 100%;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .col{
